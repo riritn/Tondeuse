@@ -4,15 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f20004ef-5f23-4569-badc-019540bd68de" name="Changes" comment="" />
+    <list default="true" id="f20004ef-5f23-4569-badc-019540bd68de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mowerItNow/MowerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mowerItNow/SurfaceToMowTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mowerItNow/Mower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mowerItNow/Mower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mowerItNow/MowerPilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mowerItNow/MowerPilot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mowerItNow/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mowerItNow/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mowerItNow/SurfaceToMow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mowerItNow/SurfaceToMow.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "riritn"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/riritn/Tondeuse.git",
+    "accountId": "72b1ac49-76fc-4826-aed0-a732a27ced46"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -25,12 +53,31 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Administrateur/IdeaProjects/Tondeuse/src/main/java/org/mowerItNow",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrateur\IdeaProjects\Tondeuse\src\main\java\org\mowerItNow" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.mowerItNow" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -47,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717009564560</updated>
-      <workItem from="1717009565738" duration="3000" />
+      <workItem from="1717009565738" duration="3746000" />
     </task>
     <servers />
   </component>
