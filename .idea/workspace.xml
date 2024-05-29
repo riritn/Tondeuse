@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f20004ef-5f23-4569-badc-019540bd68de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mowerItNow/MowerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mowerItNow/SurfaceToMowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mowerItNow/instructions.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mowerItNow/Mower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mowerItNow/Mower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mowerItNow/MowerPilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mowerItNow/MowerPilot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mowerItNow/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mowerItNow/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mowerItNow/SurfaceToMow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mowerItNow/SurfaceToMow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mowerItNow/MowerPilotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mowerItNow/MowerPilotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mowerItNow/MowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mowerItNow/MowerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mowerItNow/SurfaceToMowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mowerItNow/SurfaceToMowTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.MowerPilotTest.drive.executor": "Run",
+    "JUnit.MowerTest.moveToAdvance.executor": "Run",
+    "JUnit.MowerTest.moveToTurnLeft.executor": "Run",
+    "JUnit.MowerTest.moveToTurnRignt.executor": "Run",
+    "JUnit.MowerTest.positionToShow.executor": "Run",
+    "JUnit.SurfaceToMowTest.isNotValidPosition.executor": "Run",
+    "JUnit.SurfaceToMowTest.isValidPosition.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
@@ -78,6 +86,97 @@
       <recent name="org.mowerItNow" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.MowerPilotTest.drive">
+    <configuration name="MowerPilotTest.drive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tondeuse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mowerItNow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mowerItNow" />
+      <option name="MAIN_CLASS_NAME" value="org.mowerItNow.MowerPilotTest" />
+      <option name="METHOD_NAME" value="drive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MowerTest.moveToAdvance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tondeuse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mowerItNow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mowerItNow" />
+      <option name="MAIN_CLASS_NAME" value="org.mowerItNow.MowerTest" />
+      <option name="METHOD_NAME" value="moveToAdvance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MowerTest.moveToTurnLeft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tondeuse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mowerItNow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mowerItNow" />
+      <option name="MAIN_CLASS_NAME" value="org.mowerItNow.MowerTest" />
+      <option name="METHOD_NAME" value="moveToTurnLeft" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MowerTest.moveToTurnRignt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tondeuse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mowerItNow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mowerItNow" />
+      <option name="MAIN_CLASS_NAME" value="org.mowerItNow.MowerTest" />
+      <option name="METHOD_NAME" value="moveToTurnRignt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MowerTest.positionToShow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tondeuse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mowerItNow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mowerItNow" />
+      <option name="MAIN_CLASS_NAME" value="org.mowerItNow.MowerTest" />
+      <option name="METHOD_NAME" value="positionToShow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MowerPilotTest.drive" />
+        <item itemvalue="JUnit.MowerTest.moveToTurnLeft" />
+        <item itemvalue="JUnit.MowerTest.moveToTurnRignt" />
+        <item itemvalue="JUnit.MowerTest.moveToAdvance" />
+        <item itemvalue="JUnit.MowerTest.positionToShow" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,11 +193,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717009564560</updated>
-      <workItem from="1717009565738" duration="3746000" />
+      <workItem from="1717009565738" duration="9023000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/mowerItNow/MowerTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/mowerItNow/MowerPilot.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/mowerItNow/MowerPilot.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/mowerItNow/MowerPilot.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

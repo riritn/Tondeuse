@@ -1,13 +1,11 @@
 package org.mowerItNow;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @AllArgsConstructor
+@Builder
 public class Position {
     private int x;
     private int y;
